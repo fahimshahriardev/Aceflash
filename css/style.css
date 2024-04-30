@@ -1,0 +1,685 @@
+@font-face{
+    font-family: impact;
+    src:(../impact/impact.ttf) format("truetype");
+}
+
+@font-face{
+    font-family: myriadpro;
+    src:(../myriad-pro-cufonfonts/MYRIADPRO-BOLD.OTF) format("opentype");
+}
+.title{
+    font-family: impact;
+    letter-spacing: 3px;
+}
+.text{
+    font-family: myriadpro;
+}
+
+/*==========APEX file style Start=====*/
+
+.apex{
+	background: url(../img/apex-bg.png);
+	background-size: cover;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    
+    color: white;
+     font-size: 20px;
+    padding-left:55px;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover {
+    
+    color: #2659EA;
+
+}
+.navbar-light .navbar-toggler-icon{
+   background-image:url(../img/menu-bar.png);
+}
+
+header{
+	
+	background-color: rgb(9,6,4,0.6);
+}
+hr {
+    margin-top: 0px;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid #2659EA;
+}
+.bar{
+	 margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 4px solid #2659EA;
+    width: 315px;
+    margin-left: 0px;
+    margin-bottom: 80px;
+}
+.head-text{
+	color: #C5C5C5;
+	font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 10px;
+}
+.head-text-2{
+	color:#C5C5C5; 
+	letter-spacing: 2px;
+    font-weight: 500;
+}
+ul li{
+	list-style: none;
+}
+.mark-text{
+color: white;
+font-size: 20px;
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: rgba(9,6,4,0.6);
+    background-clip: border-box;
+    border: 1px solid rgba(255,255,255,.125);
+    border-radius: .25rem;
+}
+.left-pack{
+	margin-top: 125px;
+	position: relative;
+}
+.right-pack{
+	position: absolute;
+    top: 110px;
+    left: 235px;
+}
+.cstm-btn1{
+	position: relative;
+    color: white;
+    background-color: rgb(6,101,243);
+    padding: 10px 20px;
+    border-radius: 10px 0px 0px 10px;
+}
+.cstm-fa{
+	padding: 5px;
+    font-size: 14px;
+}
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+.cstm-btn2{
+	position: relative;
+    color: white;
+    padding: 9px 16px;
+    border-radius: 0px 10px 10px 0px;
+    border: 1px solid rgb(6,101,243);
+    left: -9px;
+}
+.cstm-btn3{
+	    position: relative;
+    color: white;
+    background-color: rgb(6,101,243);
+    padding: 10px 30px;
+    border-radius: 10px 0px 0px 10px;
+}
+.cstm-btn4{
+	    position: relative;
+    color: white;
+    padding: 9px 33px;
+    border-radius: 0px 10px 10px 0px;
+    border: 1px solid rgb(6,101,243);
+    left: -9px;
+}
+.cstm-btn4-escape{
+    position: relative;
+    color: white;
+    padding: 9px 24px;
+    border-radius: 0px 10px 10px 0px;
+    border: 1px solid rgb(6,101,243);
+    left: -9px;
+}
+.cstm-btn4-rainbow{
+    position: relative;
+    color: white;
+    padding: 9px 29px;
+    border-radius: 0px 10px 10px 0px;
+    border: 1px solid rgb(6,101,243);
+    left: -9px;
+}
+.cstm-btn5{
+	color: white;
+    background: rgb(6,101,243,0.9);
+    padding: 10px 182px;
+    margin-left: 70px;
+    border: 1px solid rgb(6,101,243);
+    border-radius: 10px;
+}
+.card-title-margin{
+    margin-bottom: 25px;
+}
+.margin{
+	margin-top: 130px;
+	margin-bottom: 130px;
+}
+
+/*==========APEX file style end=====*/
+
+
+
+
+
+
+/*==========Home file style Start=====*/
+
+
+.home{
+    background:url(../img/home-slider.png)no-repeat;
+    background-size: cover; 
+}
+.home-menu-bar{
+    background-color: rgba(0, 0, 0, 0.93);
+}
+.home-bar{
+  margin-top: 0px;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 4px solid #2659EA;
+    margin-bottom: -2px;
+}
+.why-kernel{
+    background-color: #171717;
+}
+.home-head-text{
+    color: #C5C5C5;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+.rainbow-div{
+    padding-left: 71px;
+    margin-top: 305px;
+    margin-bottom: 300px;
+}
+.apex-div{
+    padding-left: 0px;
+    margin-top: 300px;
+    margin-bottom: 300px;
+}
+.escape-div{
+    margin-top: 300px;
+    padding-left: 130px;
+    margin-bottom: 300px;
+}
+.kernel-text{
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+.middle-row{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.last-row{
+    margin-bottom: 50px;
+}
+
+
+/*==========Home file style End=====*/
+
+
+
+
+/*==========Status file style start=====*/
+
+.status{
+    background:url(../img/status-page-bg.png)no-repeat;
+    background-size: cover; 
+}
+.status-bar{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 4px solid #2659EA;
+    width: 451px;
+    margin-left: 0px;
+    margin-bottom: 80px;
+}
+.status-head-text{
+    color: #C5C5C5;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin-top: 40px;
+}
+.status-bottom{
+    background-color: #171717;
+}
+.first-border{
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 80px;
+    margin-left: 70px;
+    margin-bottom: 200px;
+
+}
+.status-bottom-text{
+    color: gray;
+    margin: -5px;
+}
+.status-row{
+    margin-top: 50px;
+    margin-bottom: 300px;
+}
+.status-bottom-border{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 43px;
+    margin-bottom: 70px;
+}
+/*==========Status file style End=====*/
+
+
+
+
+
+
+/*==========footer file style Start=====*/
+.footer{
+    background:url(../img/footer-bg.png)no-repeat;
+    background-size: cover; 
+}
+.clr-white{
+    color: white;
+}
+.footer-margin{
+    margin-top: 55px;
+}
+.footer-text{
+    color: gray;
+    text-align: center;
+    margin-top: 50px;
+
+}
+.fotter-text-margin{
+margin-top: 22px;
+text-align: justify;
+}
+
+
+/*==========footer file style End=====*/
+
+
+
+/*==========escape file style start=====*/
+.escape{
+    background:url(../img/escape-bg.png)no-repeat;
+    background-size: cover; 
+}
+
+
+/*==========escape file style End=====*/
+
+
+/*==========rainbow file style Start=====*/
+.rainbow{
+    background:url(../img/rainbow-bg.png)no-repeat;
+    background-size: cover; 
+}
+.rainbow-head-text{
+    color: #C5C5C5;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+/*==========rainbow file style End=====*/
+
+
+/*===mobile responsive start====*/
+@media (min-width: 320px) and (max-width:520px){
+.apex {
+    background: url(../img/apex-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 74%;
+}
+.escape{
+    background: url(../img/escape-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 74%; 
+}
+.rainbow{
+     background: url(../img/rainbow-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 74%;
+}
+.home {
+    background: url(../img/home-slider.png)no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 102%;
+}
+.status{
+      background: url(../img/status-page-bg.png)no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 102%;
+}
+.rainbow-div {
+    padding-left: 71px;
+    margin-top: 140px;
+     margin-bottom: 20px; 
+}
+.apex-div {
+    padding-left: 82px;
+    margin-top: 53px;
+    margin-bottom: 45px; 
+}
+.escape-div {
+    margin-top: 25px;
+    padding-left: 80px;
+    margin-bottom: 15px;
+}
+
+.left-pack{
+    position: unset;
+    margin-top:0px;
+    margin-left: 114px;
+    
+}
+.right-pack{
+     position: unset;
+    top: 0px;
+    left: 0px;
+    margin-left: 100px;
+}
+.cstm-btn5 {
+    color: white;
+    background: rgb(6,101,243,0.9);
+    padding: 10px 115px;
+    margin-left: 80px;
+    border: 1px solid rgb(6,101,243);
+    border-radius: 10px;
+   
+}
+.margin {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.first-border {
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 44px;
+    margin-left: 0px; 
+    margin-bottom: 12px;
+}
+
+
+}
+
+
+
+@media (min-width: 521px) and (max-width:768px){
+    .apex {
+    background: url(../img/apex-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 65%;
+}
+.escape{
+    background: url(../img/escape-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 65%; 
+}
+.rainbow{
+     background: url(../img/rainbow-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 65%;
+}
+
+.home {
+    background: url(../img/home-slider.png)no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 102%;
+}
+.status{
+      background: url(../img/status-page-bg.png)no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 102%;
+}
+.first-border {
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 35px;
+    margin-left: 0px; 
+    margin-bottom: 15px;
+}
+.rainbow-div {
+      padding-left: 21px;
+    margin-top: 125px;
+    margin-bottom: -21px; 
+}
+.apex-div {
+   padding-left: 147px;
+    margin-top: 10px;
+    margin-bottom: 4px; 
+}
+.escape-div {
+      margin-top: -8px;
+    padding-left: 248px;
+    margin-bottom: 15px;
+}
+
+.left-pack{
+    position: unset;
+    margin-top:0px;
+    margin-left: 114px;
+    
+}
+.right-pack{
+     position: unset;
+    top: 0px;
+    left: 0px;
+    margin-left: 100px;
+}
+.cstm-btn5 {
+    color: white;
+    background: rgb(6,101,243,0.9);
+    border-radius: 10px;
+    padding: 10px 115px;
+    margin-left: 87px;
+    border: 1px solid rgb(6,101,243);
+   
+}
+.margin {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+}
+
+
+@media (min-width: 769px) and (max-width:991px){
+     .apex {
+    background: url(../img/apex-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.escape{
+    background: url(../img/escape-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%%; 
+}
+.rainbow{
+     background: url(../img/rainbow-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.home {
+    background: url(../img/home-slider.png)no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 102%;
+}
+.status{
+      background: url(../img/status-page-bg.png)no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 102%;
+}
+.first-border {
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 26px;
+    margin-top: 56px;
+    margin-left: 40px;
+    margin-bottom: 200px;
+}
+.status-responsive-margin{
+    margin-left: 40px;
+}
+.rainbow-div {
+    padding-left: 21px;
+    margin-top: 238px;
+    
+}
+.apex-div {
+ padding-left: 253px;
+    margin-top: 243px;
+    margin-bottom: 4px; 
+}
+.escape-div {
+     margin-top: -559px;
+    padding-left: 315px;
+    margin-bottom: 15px;
+}
+.bar {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 4px solid #2659EA;
+    width: 189px;
+    margin-left: 0px;
+    margin-bottom: 80px;
+}
+    .left-pack{
+    position: unset;
+    margin-top:270px;
+    margin-left: 18px;
+    
+}
+.right-pack{
+     position: unset;
+    top: 0px;
+    left: 0px;
+    margin-left: 1px;
+}
+.cstm-btn5 {
+    color: white;
+    background: rgb(6,101,243,0.9);
+    padding: 10px 115px;
+    margin-left: 87px;
+    border: 1px solid rgb(6,101,243);
+    border-radius: 10px;
+   
+}
+.cstm-btn5 {
+    color: white;
+    background: rgb(6,101,243,0.9);
+    padding: 10px 75px;
+    margin-left: 29px;
+    border: 1px solid rgb(6,101,243);
+    border-radius: 10px;
+}
+.md-margin{
+    margin-left: 22px;
+}
+.margin {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+}
+
+
+@media (min-width: 991px) and (max-width:1200px){
+       .apex {
+    background: url(../img/apex-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.escape{
+    background: url(../img/escape-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+}
+.rainbow{
+     background: url(../img/rainbow-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.home {
+    background: url(../img/home-slider.png)no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 102%;
+}
+.status{
+      background: url(../img/status-page-bg.png)no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 102%;
+}
+.status-responsive-margin{
+    margin-left: 40px;
+}
+.bar {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 4px solid #2659EA;
+    width: 158px;
+    margin-left: 0px;
+    margin-bottom: 80px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    padding-left: 30px;
+    
+}
+.cstm-btn5 {
+    color: white;
+    background: rgb(6,101,243,0.9);
+    padding: 10px 139px;
+    margin-left: 70px;
+    border: 1px solid rgb(6,101,243);
+    border-radius: 10px;
+}
+.margin {
+    margin-top: 70px;
+    /* margin-bottom: 7px; */
+}
+}
+
+/*===mobile responsive end====*/
